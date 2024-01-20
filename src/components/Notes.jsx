@@ -1,12 +1,12 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { ReactDOM } from "react";
-function Notes()
+function Notes(props)
 {
     return(
         <div className="note">
-        <h1>For title buddy</h1>
-        <p>For Paragraph </p>
+        <h1>{props.title}</h1>
+        <p>{props.content}</p>
         </div>
     );
 }
