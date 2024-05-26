@@ -3,6 +3,7 @@ const notes = [
       key: 1,
       title: "Delegation",
       content:
+      "Q. Why did the programmer quit his job? A. Because he didn't get arrays ."
     },
     {
       key: 2,
